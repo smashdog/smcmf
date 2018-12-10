@@ -4,7 +4,7 @@
             <i-icon type="md-home"></i-icon>
             首页
         </i-menu-item>
-        <span v-for="v in menuList" :key="v.id">
+        <span v-for="v in menuListData" :key="v.id">
             <i-submenu v-if="typeof v.sub != 'undefined'" :name="'menu'+v.id">
                 <template slot="title">
                     <i-icon v-if="v.icon" :type="v.icon"></i-icon>
@@ -32,6 +32,16 @@ export default {
         'menuList',
         'menu'
     ],
+    data(){
+        return {
+            menuListData: this.menuList
+        }
+    },
+    created(){
+        if(this.menuListData.length == 0){
+            this.menuListData = JSON.parse(localStorage.getItem('menu'));
+        }
+    },
     methods: {
         onLeftSelect(name){
             this.$router.push({path: '/admin/login'});

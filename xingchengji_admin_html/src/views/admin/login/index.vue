@@ -65,7 +65,8 @@ export default {
                                 }
                             }
                             localStorage.setItem('menu1', JSON.stringify(temp1));
-                            location.href = '/';
+                            this.$Spin.hide();
+                            this.$router.push({path: '/'});
                         });
                     });
                 } else {
@@ -79,7 +80,7 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 .ivu-form-item-content img{
     height: 32px;
 }
@@ -91,5 +92,10 @@ i-input{
     border-left:0px !important;
     border-right:0px !important;
     border-radius: 0 !important;
+}
+form.ivu-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 </style>

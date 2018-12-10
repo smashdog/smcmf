@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.23, for Linux (x86_64)
 --
--- Host: localhost    Database: xingchengji
+-- Host: localhost    Database: db
 -- ------------------------------------------------------
 -- Server version	5.7.23-0ubuntu0.16.04.1
 

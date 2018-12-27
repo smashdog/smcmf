@@ -130,11 +130,7 @@ class File extends Driver
             return $default;
         }
 
-        try{
-            $content      = file_get_contents($filename);
-        }catch(\Exception $e){
-            $content      = false;
-        }
+        $content      = file_get_contents($filename);
         $this->expire = null;
 
         if (false !== $content) {
@@ -270,7 +266,7 @@ class File extends Driver
             foreach ($keys as $key) {
                 $this->unlink($key);
             }
-            $this->rm('tag_' . md5($tag));
+            $this->rm($this->getTagKey($tag));
             return true;
         }
 

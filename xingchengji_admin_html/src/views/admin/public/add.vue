@@ -154,7 +154,9 @@ export default {
                                     }else if(this.formData[k].type == 'radio'){
                                         res1.data.data[k] = Number(res1.data.data[k]);
                                     }
+                                    this.form.id = this.$route.query.id;
                                     this.$set(this.form, k, res1.data.data[k]);
+                                    console.log(this.form)
                                     // this.form[k] = res1.data.data[k];
                                 }
                             }

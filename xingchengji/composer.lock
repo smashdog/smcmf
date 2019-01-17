@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "986b6aa9142d6def7241a4480388b4d3",
     "content-hash": "d40776939f4870518db0c914294eba3a",
     "packages": [
         {
@@ -106,7 +107,7 @@
                 "web service"
             ],
             "abandoned": "guzzlehttp/guzzle",
-            "time": "2015-03-18T18:23:50+00:00"
+            "time": "2015-03-18 18:23:50"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -178,7 +179,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2018-11-16T00:41:32+00:00"
+            "time": "2018-11-16 00:41:32"
         },
         {
             "name": "qcloud/cos-sdk-v5",
@@ -230,7 +231,7 @@
                 "php",
                 "qcloud"
             ],
-            "time": "2018-11-27T13:31:54+00:00"
+            "time": "2018-11-27 13:31:54"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -296,20 +297,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-21T14:20:20+00:00"
+            "time": "2018-11-21 14:20:20"
         },
         {
             "name": "topthink/framework",
-            "version": "v5.1.32",
+            "version": "v5.1.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "88a2ab625b35e047896718db320e08375cf021da"
+                "reference": "477e1cef91290a36398ecbcdffcec7268d80f0dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/88a2ab625b35e047896718db320e08375cf021da",
-                "reference": "88a2ab625b35e047896718db320e08375cf021da",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/477e1cef91290a36398ecbcdffcec7268d80f0dd",
+                "reference": "477e1cef91290a36398ecbcdffcec7268d80f0dd",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -353,7 +354,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2018-12-23T13:42:11+00:00"
+            "time": "2019-01-16 06:10:52"
         },
         {
             "name": "topthink/think-captcha",
@@ -398,7 +399,7 @@
                 }
             ],
             "description": "captcha package for thinkphp5",
-            "time": "2017-12-31T16:37:49+00:00"
+            "time": "2017-12-31 16:37:49"
         },
         {
             "name": "topthink/think-installer",
@@ -445,7 +446,7 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2018-05-11T06:45:42+00:00"
+            "time": "2018-05-11 06:45:42"
         }
     ],
     "packages-dev": [],

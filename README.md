@@ -1,5 +1,5 @@
-[https://github.com/smashdog/smcmf_html](前端)
+[前端](https://github.com/smashdog/smcmf_html)
 
-[https://github.com/smashdog/smcmf_php](后端)
+[后端](https://github.com/smashdog/smcmf_php)
 
-[https://github.com/smashdog/smcmf_sql](DB)
+[DB](https://github.com/smashdog/smcmf_sql)
